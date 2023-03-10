@@ -1,0 +1,92 @@
+
+.mainDiv{
+    width: 100%;
+}
+.userCard{
+    display: flex;
+    border: 1px solid black;
+    height: 85vh;
+    width: 80vw;
+ overflow: hidden; 
+ margin: auto;
+}
+.left{
+flex: 1.5;
+margin-top: auto;
+margin-bottom: 20px;
+text-align: left ;
+
+}
+.right{
+flex: 2.5;
+}
+
+.data{
+    text-align: left;
+    margin-left: 10%;
+   
+}
+.rating{
+    font-size: 24px;
+    color:rgba(76, 175, 80, 1);
+    font-weight: bold;
+}
+.about{
+    font-size: 14px;
+}
+.Background{
+    background: #C5F8C7;
+        border-radius: 50%;
+        height: 35rem;
+        position: relative;
+        width: 36rem;
+            bottom: 280px;
+            right: -62px;
+}
+.btn{
+    background-color:rgba(76, 175, 80, 1);
+    color: white;
+    width: 50%;
+    height:30px;
+    border: none;
+    text-align: center;
+    font-size: 13px;
+box-shadow: 0px 3px 30px #6565af;
+}
+
+.image{
+        width: 4rem;
+            height: 4rem;
+            border-radius: 50%;
+            object-fit: contain;
+            overflow: hidden;
+            position: absolute;
+        }
+
+        .image-div{
+            width: 65%;
+                height: 65%;
+                border: 5px dotted green;
+                border-radius: 50%;
+                position: relative;
+                top: 318px;
+                left: 58px;
+        }
+.imgDiv1{
+    left: 134px;
+        top: -29px;
+}
+.imgDiv2 {
+    top: 153px;
+    left: -36px;
+}
+
+.imgDiv3{
+    top: 163px;
+        right: -30px;
+}
+
+.imgDiv4{
+        top: 322px;
+        left: 149px;
+    }

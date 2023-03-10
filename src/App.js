@@ -1,9 +1,10 @@
 import './App.css';
+import UserCard from './Components/UserCard';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hii Word</h1>
+      <UserCard/>
     </div>
   );
 }
